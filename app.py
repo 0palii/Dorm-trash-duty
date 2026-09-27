@@ -39,7 +39,7 @@ st.success(f"## 🚨 **This Week's Duty: Room {current_room}** 🚨")
 
 # Weekend reminder
 if day_of_week in [6, 7]:  # Saturday or Sunday
-    st.warning("⚠️ **Weekend Reminder**: Don't forget to take out the main trash bags downstairs on Sunday night ready for the new week!")
+    st.warning("⚠️ **Weekend Reminder**: Don't forget to take out the main trash bags downstairs on Monday night ready for the new week!")
     st.balloons()
 
 st.divider()
